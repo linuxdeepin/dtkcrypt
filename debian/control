@@ -1,12 +1,15 @@
 Source: dtkcrypt
 Section: libdevel
 Priority: optional
-Maintainer: Packages Builder <packages@deepin.com>
+Maintainer: Deepin Packages Builder <packages@deepin.com>
 Build-Depends:
  debhelper-compat (= 12),
  cmake,
  librsvg2-dev,
- qtbase5-dev
+ qtbase5-dev,
+ doxygen,
+ graphviz,
+ qhelpgenerator-qt5
 Standards-Version: 4.5.0
 
 Package: libdtkcrypt
